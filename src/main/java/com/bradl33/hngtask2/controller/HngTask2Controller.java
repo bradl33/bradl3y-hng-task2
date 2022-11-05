@@ -17,7 +17,7 @@ public class HngTask2Controller {
     }
 
     @PostMapping("/operation")
-    public OperationResponse calculation(@Validated @RequestBody MathOperation operation){
+    public OperationResponse calculation(@RequestBody MathOperation operation){
         return service.calculation(operation);
     }
 
