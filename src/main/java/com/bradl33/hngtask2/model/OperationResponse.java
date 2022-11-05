@@ -21,6 +21,18 @@ public class OperationResponse {
         this.operationTypeEnum = operationTypeEnum;
     }
 
+    public String getSlackUsername() {
+        return slackUsername;
+    }
+
+    public Integer getResult() {
+        return result;
+    }
+
+    public OperationTypeEnum getOperationTypeEnum() {
+        return operationTypeEnum;
+    }
+
     @Override
     public String toString() {
         return "OperationResponse{" +
